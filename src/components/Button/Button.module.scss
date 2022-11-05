@@ -1,0 +1,42 @@
+.wrapper {
+        border-radius: 999px;
+            font-size: 1.4rem;
+            line-height: normal;
+            font-weight: 400;
+            text-transform: none;
+            text-align: center;
+            background-color: var(--background-color);
+            border: none;
+            outline: none;
+            margin-right: 10px;
+            color: var(--icon-color);
+            overflow: hidden;
+            padding: 0;
+
+    
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+
+    &:hover {
+        background-color: var(--primary-bg);
+    }
+
+    &.avatar{
+        border-radius: 50%;
+    }
+
+    .avatar-btn{
+        overflow: hidden;
+        border-radius: 999px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.circle{
+    border-radius: 999px;
+    width: 40px;
+    height: 40px;
+}

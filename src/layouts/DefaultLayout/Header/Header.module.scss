@@ -1,0 +1,128 @@
+
+.wrapper{
+    --height-header: 70px;
+    --search-text: #282828;
+    
+    display: flex;
+    align-items: center;
+
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--height-header);
+    width: 100%;
+}
+
+.controls-left{
+    display: flex;
+    flex: 1;
+    height: 40px;
+
+    
+}
+
+.control-icon{
+
+    .control-icon_navigation{
+        opacity: .3;
+        font-size: 24px;
+        margin-right: 20px;
+        outline: none;
+        border: none;
+    }
+
+    .btn-left{
+        font-size: 14px;
+    }
+    .btn-icon{
+        color: var(--text-color);
+    }
+}
+.search,
+.search-result{
+    width: 540px;
+}
+.search-result{
+    margin-top: -10px;
+}
+.search {
+    position: relative;
+    display: flex;
+    // width: 100%;
+    max-width: 540px;
+    background-color: var(--background-color);
+    border-radius: 20px;
+
+    
+
+    .search-btn{
+        display: flex;
+        align-items: center;
+        outline: none;
+        border: none;
+    }
+    input{
+        flex: 1;
+        width: 95%;
+        outline: none;
+        border: none;
+        font-size: 14px;
+        color: var(--text-color);
+        padding-left: 5px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        
+    }
+    &:focus-within {
+        background-color: var(--primary-bg);
+        box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+        border-radius: 20px 20px 0 0;
+    }
+    .search-icon{
+        font-size: 20px;
+        color: #757575;
+
+    }
+}
+.search-title{
+        font-size: 14px;
+            font-weight: 600;
+            padding: 6px 10px 8px;
+            display: flex;
+            justify-content: space-between;
+}
+
+
+.control-left_icon{
+
+}
+
+.controls-right{
+
+
+   
+
+    +.right-btn{
+        margin-right: 12px;
+    }
+
+    .theme-icon{
+
+    }
+
+    .avatar-img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+// Setting Btn
+
+.setting-btn{
+    width: 240px;
+}

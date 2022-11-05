@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    padding: 8px 10px;
+    align-items: baseline;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 4px;
+
+    .suggest-icon{
+        font-size: 1.4rem;
+        color: hsla(0, 0%, 100%, 0.5);
+        top: 3px;
+        margin-right: 10px;
+    }
+
+    .suggest-title{
+
+    }
+
+    &:hover{
+        background-color: hsla(0, 0%, 100%, 0.1);
+        color: #c273ed;
+        
+    }
+}

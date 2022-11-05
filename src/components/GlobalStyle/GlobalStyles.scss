@@ -1,0 +1,63 @@
+@import "normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --layout-bg: #363636;
+    --black: #000;
+    --text-color: #eee;
+    --background-color:hsla(0, 0%, 100%, 0.1);
+    --primary-bg: #363636;
+    --sidebar-bg: hsla(0, 0%, 100%, 0.05);
+    --icon-color: #d8d8d8;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+  
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+img,
+video {
+    height: auto;
+    width: 100%;
+}
+
+
+
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+    margin: 0;
+    padding: 0;
+}

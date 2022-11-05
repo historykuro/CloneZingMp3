@@ -1,0 +1,22 @@
+.wrapper{
+    overflow: hidden;
+    width: 100%;
+    max-height: min((100vh - 96px) - 60px, 734px);
+    min-height: 100px;
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    
+    box-shadow: 0 4px 6px 0 rgb(32 33 36 / 28%);
+    padding: 13px 10px;
+    height: auto;
+
+
+    &.inputSearch{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+
+    &.setting{
+        border-radius: 20px;
+    }
+}
